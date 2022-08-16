@@ -1,0 +1,33 @@
+.nav_bar{
+    width: 100%;
+    background: #761D1D;
+    margin-bottom: 70px;
+}
+
+.nav_bar__content{
+    padding: 0 70px;
+}
+
+.nav_bar__button{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #761D1D;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.nav_bar__button:hover {
+    background: rgba(87, 0, 0, 0.44);
+}

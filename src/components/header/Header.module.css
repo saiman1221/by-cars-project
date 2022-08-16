@@ -1,0 +1,80 @@
+.header{
+    margin: 45px 0;
+    height: 50px;
+}
+
+.logo{
+    font-family: 'Imprima', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.search_lang_buttons{
+    width: 470px;
+}
+
+.search{
+    width: 270px;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #CFCFCF;
+    display: flex;
+}
+
+.search:before{
+    content: url("images/magnifier.png");
+}
+
+.search_form{
+    height: 100%;
+}
+
+.search_input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #717171;
+    padding: 0 15px;
+}
+
+.lang_butt{
+    height: 100%;
+    width: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-shadow: 0 0 4px rgba(187, 187, 187, 0.28);
+    color: #000000;
+    background: #CFCFCF;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.lang .active{
+    background: #761D1D;
+    box-shadow: inset 4px 4px 20px #681010;
+    color: #FFFFFF;
+}
+
+.lang_butt_ru{
+    border-radius: 6px 0 0 6px;
+}
+
+.lang_butt_eng{
+    border-radius: 0 6px 6px 0;
+}

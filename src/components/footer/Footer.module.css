@@ -1,0 +1,36 @@
+.footer{
+    background: #292929;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.top_part{
+    margin-bottom: 25px;
+}
+
+.top_part__text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142.8%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    width: 75%;
+}
+
+.top_part__contacts{
+    width: 140px;
+}
+
+.bottom_part{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C1C1C1;
+    display: flex;
+    justify-content: center;
+}
