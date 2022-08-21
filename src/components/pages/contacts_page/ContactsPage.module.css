@@ -1,0 +1,90 @@
+.contacts_page{
+    margin-bottom: 150px;
+}
+
+.info{
+    width: 60%;
+    align-items: flex-start;
+    margin-bottom: 160px;
+}
+
+.info h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+
+}
+
+.info_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.info_group_text{
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.contacts{
+
+}
+
+.contacts h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.contacts p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.contacts form{
+    width: 45%;
+}
+
+.contacts div{
+    margin-bottom: 10px;
+}
+
+.contacts form span{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.star{
+    color: #FFFFFF;
+}
+
+.contacts input{
+    background: #C4C4C4;
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 300px;
+    border-radius: 3px;
+}

@@ -63,9 +63,11 @@
     outline: none;
     text-transform: uppercase;
     cursor: pointer;
+
+    transition: 0.4s;
 }
 
-.lang .active{
+.active{
     background: #761D1D;
     box-shadow: inset 4px 4px 20px #681010;
     color: #FFFFFF;

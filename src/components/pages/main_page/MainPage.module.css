@@ -1,21 +1,33 @@
+.blocks{
+    padding: 50px 0;
+}
+
 .block{
     padding: 0;
     margin-bottom: 50px;
 
-
 }
 
-.block_reverse{
+.block:nth-child(2n){
     flex-direction: row-reverse;
 }
 
 .image{
-    width: 600px;
-    height: 300px;
+    width:45%;
+}
+
+.block:nth-child(1) .image{
+    content: url("images/pic_audi_rs6.png");
+}
+.block:nth-child(2) .image{
+    content: url("images/pic_bmw_m5.png");
+}
+.block:nth-child(3) .image{
+    content: url("images/pic_audi_a6.png");
 }
 
 .text_side{
-
+    width: 40%;
 }
 
 .h2{

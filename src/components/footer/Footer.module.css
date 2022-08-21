@@ -24,6 +24,18 @@
     width: 140px;
 }
 
+.a:nth-child(1) .img{
+    content: url("images/youtube.png");
+}
+
+.a:nth-child(2) .img{
+    content: url("images/instagram.png");
+}
+
+.a:nth-child(3) .img{
+    content: url("images/facebook.png");
+}
+
 .bottom_part{
     font-family: 'Inter', sans-serif;
     font-style: normal;
