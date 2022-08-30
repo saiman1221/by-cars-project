@@ -21,7 +21,7 @@
     padding: 10px;
     border: none;
     border-radius: 6px;
-    background: #CFCFCF;
+    background: #E6E6E6;
     display: flex;
 }
 
@@ -58,7 +58,7 @@
     line-height: 20px;
     text-shadow: 0 0 4px rgba(187, 187, 187, 0.28);
     color: #000000;
-    background: #CFCFCF;
+    background: #E6E6E6;
     border: none;
     outline: none;
     text-transform: uppercase;

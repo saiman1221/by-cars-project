@@ -5,13 +5,12 @@
 }
 
 body {
-  background-color: #DBDBDB;
+  background-color: #fff;
 }
 
 .container{
   width: 1170px;
   margin: 0 auto;
-  /*background-color: black;*/
 }
 
 .display-flex{

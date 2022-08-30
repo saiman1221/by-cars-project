@@ -81,10 +81,33 @@
 }
 
 .contacts input{
-    background: #C4C4C4;
+    background: #E6E6E6;
     outline: none;
-    border: none;
     padding: 5px;
     width: 300px;
     border-radius: 3px;
+    color: #464646;
+    transition: 0.4s;
+    border: 2px solid #E6E6E6;
+}
+
+.contacts input:hover{
+    border: 2px solid #151515;
+}
+
+.contacts button{
+    background: #E6E6E6;
+    outline: none;
+    border: 2px solid #E6E6E6;
+    padding: 5px 0;
+    border-radius: 3px;
+    color: #151515;
+    cursor: pointer;
+    width: 300px;
+    transition: 0.4s;
+
+}
+
+.contacts button:hover{
+    border: 2px solid #151515;
 }
